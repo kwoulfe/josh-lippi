@@ -111,6 +111,7 @@ section {
   height: 56px;
   outline: 0;
   border-color: grey;
+  background-color: white;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
