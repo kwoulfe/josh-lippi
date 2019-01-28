@@ -366,13 +366,13 @@ section {
   width: 80%;
 }
 .video {
-  padding-top: 70px;
 }
 #video {
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
+  padding-top: 70px;
 }
 #video iframe {
   left: 0;
