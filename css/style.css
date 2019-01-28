@@ -365,6 +365,22 @@ section {
   height: 80%;
   width: 80%;
 }
+.video {
+  padding-top: 70px;
+}
+#video {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+#video iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 .about-2 {
   font-size: 18px;
   padding: 30px 0px 30px 0px;
@@ -420,11 +436,6 @@ section {
   position: relative;
   margin-bottom: 30px;
 }
-
-/* .discography {
-  width: 33%;
-} */
-
 .portfolio-box-content {
   position: absolute;
   top: 0;
