@@ -246,8 +246,6 @@ section {
   padding-right: 10px;
 }
 
-.fa:after {}
-
 .show-menu {
   transform: translateX(0);
 }
