@@ -468,13 +468,13 @@
             <h2 class="section-title">Contact
               </h2>
           <div class="row">
-            <form class="form-horizontal col-sm-6 col-sm-offset-3">
+            <form class="form-horizontal col-sm-6 col-sm-offset-3" action="contact.php" method="POST" role="form">
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon">
                     <i class="fa fa-user"></i>
                   </span>
-                  <input type="text" class="form-control" id="user-name" placeholder="Name">
+                  <input name="name" type="text" class="form-control" id="name" placeholder="Name">
                 </div>
               </div>
               
@@ -483,7 +483,7 @@
                   <span class="input-group-addon">
                     <i class="fa fa-envelope"></i>
                   </span>
-                  <input type="email" class="form-control" id="email" placeholder="E-mail">
+                  <input name="email" type="email" class="form-control" id="email" placeholder="E-mail">
                 </div>
               </div>
               
@@ -492,7 +492,7 @@
                   <span class="input-group-addon">
                     <i class="fa fa-pencil"></i>
                   </span>
-                  <textarea class="form-control" rows="3" placeholder="Message" id="message"></textarea> 
+                  <textarea name="message" class="form-control" rows="3" placeholder="Message" id="message"></textarea> 
                 </div>
               </div>
               
