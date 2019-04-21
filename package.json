@@ -1,0 +1,24 @@
+{
+  "name": "joshlippi",
+  "version": "1.0.0",
+  "description": "First draft of a portfolio website for a client.",
+  "main": "home.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mailgun-js": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwoulfe/joshLippi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwoulfe/joshLippi/issues"
+  },
+  "homepage": "https://github.com/kwoulfe/joshLippi#readme"
+}
